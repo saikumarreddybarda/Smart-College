@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="A Smart College App&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -Be Smart! Choose Smart!, About Smart College">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Home</title>
+
+
+    <link rel="stylesheet" href="{{url_for('static',filename='nicepage.css')}}" media="screen">
+<link rel="stylesheet" href="{{url_for('static',filename='Home.css')}}"  media="screen">
+    <script class="u-script" type="text/javascript" src="{{url_for('static',filename='jquery.js')}}"  defer=""></script>
+    <script class="u-script" type="text/javascript" src="{{url_for('static',filename='nicepage.js')}}"  defer=""></script>
+
+
+    <meta name="generator" content="Nicepage 3.30.2, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+
+
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Home">
+    <meta property="og:type" content="website">
+  </head>
+  <body style="background-color:LightGray;" class="u-body">
+
+
+  <h1 class="u-text u-text-1">
+          <span style="font-size: 3.4375rem;">A Smart College App</span>
+          <br>
+          <span style="font-size: 2.25rem;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -Be Smart! Choose Smart</span>!<br>
+        </h1>
+
+  <a href="Home.html#about">
+      <img src="static/about.jpg" alt="AboutUs" class="center"  width="150" height="100" />
+  </a>
+
+    <section class="u-align-center u-clearfix u-section-2" id="sec-702a">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-text u-text-default u-text-1">What this app can do?</h2>
+        <img class="u-image u-image-round u-radius-10 u-image-1" src= "{{url_for('static',filename='chatbot1.jpg')}}"  alt="" data-image-width="294" data-image-height="171">
+        <img class="u-image u-image-round u-radius-10 u-image-2" src="{{url_for('static',filename='attendaceee1.jpg')}}"  alt="" data-image-width="472" data-image-height="233">
+        <img class="u-image u-image-round u-radius-10 u-image-3" src="{{url_for('static',filename='placements.jpg')}}"  alt="" data-image-width="1280" data-image-height="720">
+      </div>
+    </section>
+  <center>
+    <h1 class="u-text u-text-default u-text-1" id="about">About Smart College</h1>
+        <p class="u-text u-text-2">This app provides very much&nbsp;convenience to college students as well as faculty.<br>taking&nbsp; attendance is the biggest and time taking tasks for teachers so, it provides easy method for taking attendance.&nbsp; This app also allows the student to predict their placements as well they can also interactive with an chatbot which clarifies the basic questions about college
+        </p>
+        <a href="{{ url_for('Tlogin')}}"  class="login" >
+          teacher login
+        </a> </br></br>
+          <a href="{{ url_for('Slogin')}}"  class="login">Student login</a></br></br>
+        <a href="{{ url_for('signup')}}" data-page-id="243089129" class="login">Teacher SignUP</a></br>
+
+        <p class="u-text u-text-1">* Student can directly login With Their given&nbsp;credentials<br>
+          <br>
+        </p>
+  </center>
+  </body>
+</html>
