@@ -1,0 +1,266 @@
+h1 {text-align: center;}
+about {text-align: center;}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  width: 8%;
+
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 520px;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  width: 935px;
+  margin: 8px 91px 34px auto;
+}
+
+.u-section-1 .u-image-1 {
+  min-height: 478px;
+  background-image: url("static/GettyImages-1081869356-1.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 441px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 354px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    width: 720px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 368px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 926px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 276px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 608px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 174px;
+  }
+}.u-section-2 .u-sheet-1 {
+  min-height: 846px;
+}
+
+.u-section-2 .u-text-1 {
+  margin: 53px auto 0 381px;
+}
+
+.u-section-2 .u-image-1 {
+  width: 484px;
+  height: 281px;
+  margin: 68px 48px 0 auto;
+}
+
+.u-section-2 .u-image-2 {
+  width: 556px;
+  height: 274px;
+  margin: -281px auto 0 0;
+}
+
+.u-section-2 .u-image-3 {
+  width: 553px;
+  height: 303px;
+  margin: 48px auto 60px 254px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-text-1 {
+    margin-left: 314px;
+  }
+
+  .u-section-2 .u-image-1 {
+    height: 282px;
+  }
+
+  .u-section-2 .u-image-2 {
+    margin-top: -282px;
+  }
+
+  .u-section-2 .u-image-3 {
+    height: 302px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-text-1 {
+    margin-left: 241px;
+  }
+
+  .u-section-2 .u-image-3 {
+    margin-left: 167px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 839px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-left: 181px;
+  }
+
+  .u-section-2 .u-image-2 {
+    width: 540px;
+    height: 267px;
+  }
+
+  .u-section-2 .u-image-3 {
+    width: 540px;
+    height: 295px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 607px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-left: 114px;
+  }
+
+  .u-section-2 .u-image-1 {
+    width: 340px;
+    height: 198px;
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-image-2 {
+    width: 340px;
+    height: 168px;
+    margin-top: -266px;
+  }
+
+  .u-section-2 .u-image-3 {
+    width: 340px;
+    height: 186px;
+  }
+}.u-section-3 .u-sheet-1 {
+  min-height: 378px;
+}
+
+.u-section-3 .u-text-1 {
+  margin: 25px auto 0;
+}
+
+.u-section-3 .u-text-2 {
+  line-height: 1.8;
+  width: 680px;
+  margin: 20px auto 0;
+}
+
+.u-section-3 .u-btn-1 {
+  border-style: none;
+  text-transform: uppercase;
+  font-size: 1.5625rem;
+  margin: 41px auto 0 298px;
+  padding: 10px 43px 10px 42px;
+}
+
+.u-section-3 .u-btn-2 {
+  border-style: none;
+  text-transform: uppercase;
+  font-size: 1.5625rem;
+  margin: -58px 319px 37px auto;
+  padding: 8px 49px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 .u-btn-1 {
+    margin-left: 98px;
+  }
+
+  .u-section-3 .u-btn-2 {
+    margin-right: 119px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-btn-1 {
+    margin-left: 0;
+  }
+
+  .u-section-3 .u-btn-2 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-text-2 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-text-2 {
+    width: 340px;
+  }
+}
+
+.login{
+    color:black;
+	font-size: 10px;
+	font-family: Arial, helvetica, sans serif;
+	text-align: center;
+    padding: 8px;
+	background-color: coral;
+    border-radius: 30px;
+    border-color: coral;
+}
+.login:link {
+	color:#ff0000;
+	font-size: 20px;
+	font-family: Arial, helvetica, sans serif;
+	text-decoration: none;
+	font-weight: Bold;
+}
